@@ -8,7 +8,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>IP</title>
+    <title>Workforce</title>
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <link rel="stylesheet" href="/css/app.css">
 </head>
@@ -29,7 +29,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <!-- SEARCH FORM -->
         <form class="form-inline ml-3">
             <div class="input-group input-group-sm">
-                <input class="form-control form-control-navbar" type="search" placeholder="Search" aria-label="Search">
+                <input class="form-control form-control-navbar" type="search" placeholder="Посик" aria-label="Search">
                 <div class="input-group-append">
                     <button class="btn btn-navbar" type="submit">
                         <i class="fas fa-search"></i>
@@ -47,7 +47,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <a href="index3.html" class="brand-link">
             <img src="./img/logo.png" alt="InvestmentProcess start logo" class="brand-image img-circle elevation-3"
                  style="opacity: .8">
-            <span class="brand-text font-weight-light">Investment Process</span>
+            <span class="brand-text font-weight-light">Workforce</span>
         </a>
 
         <!-- Sidebar -->
@@ -71,7 +71,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                         <router-link to="/dashboard" class="nav-link">
                             <i class="nav-icon fas fa-tachometer-alt blue"></i>
                             <p>
-                                Dashboard
+                                Информационная доска
                             </p>
                         </router-link>
                     </li>
@@ -79,22 +79,16 @@ scratch. This page gets rid of all links and provides the needed markup only.
                         <a href="#" class="nav-link">
                             <i class="nav-icon fas fa-cog green"></i>
                             <p>
-                                Management
+                                Управление
                                 <i class="right fas fa-angle-left"></i>
                             </p>
                         </a>
                         <ul class="nav nav-treeview">
                             <li class="nav-item">
-                                <a href="#" class="nav-link">
-                                    <i class="fas fa-file nav-icon"></i>
-                                    <p>Active Page</p>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link">
-                                    <i class="fas fa-file nav-icon"></i>
-                                    <p>Inactive Page</p>
-                                </a>
+                                <router-link to="/users" class="nav-link">
+                                    <i class="fas fa-users nav-icon"></i>
+                                    <p>Пользователи</p>
+                                </router-link>
                             </li>
                         </ul>
                     </li>
@@ -102,7 +96,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                         <router-link to="/profile" class="nav-link">
                             <i class="nav-icon fas fa-user"></i>
                             <p>
-                                Profile
+                                Профиль
                             </p>
                         </router-link>
                     </li>
@@ -142,10 +136,10 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <footer class="main-footer">
         <!-- To the right -->
         <div class="float-right d-none d-sm-inline">
-            Anything you want
+            artem.nikolaew199x@mail.ru
         </div>
         <!-- Default to the left -->
-        <strong>Copyright &copy; 2014-2019 <a href="https://adminlte.io">AdminLTE.io</a>.</strong> All rights reserved.
+        <strong>Copyright &copy; 2020 <a href="#">Workforce.Investment-Process</a>.</strong> Все права защищены.
     </footer>
 </div>
 <!-- ./wrapper -->
