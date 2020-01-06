@@ -4,11 +4,8 @@
     <list default="true" id="b76da9a8-9eb9-45a6-92ae-cd31ef0a8b12" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/_variables.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -179,7 +176,7 @@
       <updated>1578243525686</updated>
       <workItem from="1578243537100" duration="1003000" />
       <workItem from="1578245283433" duration="1343000" />
-      <workItem from="1578260605130" duration="14347000" />
+      <workItem from="1578260605130" duration="16920000" />
     </task>
     <task id="LOCAL-00001" summary="change readme.md">
       <created>1578261212684</created>
@@ -237,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578318259431</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="history html">
+      <created>1578320120053</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1578320120053</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,6 +269,7 @@
     <MESSAGE value="add icon and fonts" />
     <MESSAGE value="customizing menu panel" />
     <MESSAGE value="create vue router|&#10;add dashboard and profile" />
-    <option name="LAST_COMMIT_MESSAGE" value="create vue router|&#10;add dashboard and profile" />
+    <MESSAGE value="history html" />
+    <option name="LAST_COMMIT_MESSAGE" value="history html" />
   </component>
 </project>
