@@ -19,8 +19,6 @@
                                 <th>Email</th>
                                 <th>Тип</th>
                                 <th>Описание</th>
-                                <th>Токен</th>
-                                <th>Фото</th>
                                 <th>Дата регистрации</th>
                                 <th>Дата последнего обновления</th>
                                 <th>Изменить</th>
@@ -30,28 +28,22 @@
                                 <td v-if="user.id" class="indigo">{{ user.id }}</td>
                                 <td v-else class="red">404</td>
 
-                                <td v-if="user.name" class="indigo">{{ user.name }}</td>
+                                <td v-if="user.name" class="indigo">{{ user.name | upText}}</td>
                                 <td v-else class="red">404</td>
 
                                 <td v-if="user.email" class="indigo">{{ user.email }}</td>
                                 <td v-else class="red">404</td>
 
-                                <td v-if="user.type" class="indigo">{{ user.type }}</td>
+                                <td v-if="user.type" class="indigo">{{ user.type | upText}}</td>
                                 <td v-else class="red">404</td>
 
                                 <td v-if="user.bio" class="indigo">{{ user.bio }}</td>
                                 <td v-else class="red">404</td>
 
-                                <td v-if="user.photo" class="indigo">{{ user.photo }}</td>
+                                <td v-if="user.created_at" class="indigo">{{ user.created_at | myDate}}</td>
                                 <td v-else class="red">404</td>
 
-                                <td v-if="user.remember_token" class="indigo">{{ user.remember_token }}</td>
-                                <td v-else class="red">404</td>
-
-                                <td v-if="user.created_at" class="indigo">{{ user.created_at }}</td>
-                                <td v-else class="red">404</td>
-
-                                <td v-if="user.updated_at" class="indigo">{{ user.updated_at }}</td>
+                                <td v-if="user.updated_at" class="indigo">{{ user.updated_at | myDate}}</td>
                                 <td v-else class="red">404</td>
                                 <td>
                                     <a href="#">
@@ -167,7 +159,14 @@
                 axios.get("api/user").then(({ data }) => (this.users = data.data));
             },
             createUser() {
-                this.form.post('api/user')
+                this.$Progress.start();
+                this.form.post('api/user');
+                $('#addNew').modal('hide');
+                Toast.fire({
+                    icon: 'success',
+                    title: 'Новый пользоваетль успешно добавлен!'
+                })
+                this.$Progress.finish();
             }
         },
         mounted() {
