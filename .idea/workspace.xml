@@ -3,12 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b76da9a8-9eb9-45a6-92ae-cd31ef0a8b12" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/components/Users.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/Users.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -182,7 +178,7 @@
       <workItem from="1578243537100" duration="1003000" />
       <workItem from="1578245283433" duration="1343000" />
       <workItem from="1578260605130" duration="26768000" />
-      <workItem from="1578739789645" duration="16635000" />
+      <workItem from="1578739789645" duration="16995000" />
     </task>
     <task id="LOCAL-00001" summary="change readme.md">
       <created>1578261212684</created>
@@ -268,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578754821435</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add progressbar">
+      <created>1578764034744</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1578764034744</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,6 +306,7 @@
     <MESSAGE value="color i" />
     <MESSAGE value="users table" />
     <MESSAGE value="add user and view users table" />
-    <option name="LAST_COMMIT_MESSAGE" value="add user and view users table" />
+    <MESSAGE value="add progressbar" />
+    <option name="LAST_COMMIT_MESSAGE" value="add progressbar" />
   </component>
 </project>
